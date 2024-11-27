@@ -224,3 +224,80 @@ Start importing Assets/UBCO Courtyard Assets/Courtyard Setup.unity using Guid(4e
  -> (artifact id: '6063cf6f783aab7c0b9abfa0fe517eab') in 0.000556 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 306.815312 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Courtyard Setup.unity
+  artifactKey: Guid(4ebe2e027cd134992ac1465459358b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Courtyard Setup.unity using Guid(4ebe2e027cd134992ac1465459358b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a8968e825d0fdf766723fe9a718b026e') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.123594 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials
+  artifactKey: Guid(f591c9c6faf4a9d498736925a3d17608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials using Guid(f591c9c6faf4a9d498736925a3d17608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '44efbee11fa16343b795ea74f7121965') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.382286 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard
+  artifactKey: Guid(4a438094a68ebc946b7af456de1081e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard using Guid(4a438094a68ebc946b7af456de1081e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'a5efbe7bf3c6eab2db6116378f9f1f99') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062493 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Brick.mat
+  artifactKey: Guid(f6427a7540881b141b113e4fe2faaec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Brick.mat using Guid(f6427a7540881b141b113e4fe2faaec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'd4c6910a298d41d03d045f26305a123a') in 0.097186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Material.mat
+  artifactKey: Guid(2d39684b1f367fb44a29b065803ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Material.mat using Guid(2d39684b1f367fb44a29b065803ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: 'b355255454dc388d76e0b4258575347e') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Grass.mat
+  artifactKey: Guid(edae2666ce058e840bfe6d8bfeadb206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Grass.mat using Guid(edae2666ce058e840bfe6d8bfeadb206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '53e7a2505aeebb2d87cddb2bb7268e8c') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Water.mat
+  artifactKey: Guid(a19fb541c509e9e438257a96090dd71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Water.mat using Guid(a19fb541c509e9e438257a96090dd71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '8cb63204df7db4ee2deb0be3c97828ae') in 0.005439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Glass.mat
+  artifactKey: Guid(01bcbb46f3589d844bd57955c812cf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UBCO Courtyard Assets/Materials/Courtyard/Glass.mat using Guid(01bcbb46f3589d844bd57955c812cf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+ -> (artifact id: '0624a0f211d5acec629a6f9fc73f0e9e') in 0.005218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
