@@ -66,7 +66,7 @@ This experience blends virtual penguins with real-world settings, creating a jux
 ---
 
 ## **Technical Components**
-- **3D Models**: Penguins and environmental assets from Unity Asset Store.  
+- **3D Models**: Philosopher Penguin is made by Brian, the rest of Penguins and environmental assets from Unity Asset Store and sketchfab website.  
 - **Sound Design**:  
   - Happy flock: Light, cheerful tones.  
   - Philosopher Penguin: Reflective and somber background music.  
