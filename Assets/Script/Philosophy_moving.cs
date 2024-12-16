@@ -10,7 +10,7 @@ public class ARObjectMover : MonoBehaviour
 
     void Start()
     {
-        // Ensure the model is initially inactive (hidden)
+        // Ensure the model starts as inactive
         if (targetModel != null)
         {
             targetModel.SetActive(false);
@@ -26,7 +26,7 @@ public class ARObjectMover : MonoBehaviour
 
     void Update()
     {
-        // Move the model along the x-axis if the target is being tracked
+        // Move the model along the x-axis continuously if tracking started
         if (isTracking && targetModel != null)
         {
             Vector3 position = targetModel.transform.position;
@@ -37,20 +37,14 @@ public class ARObjectMover : MonoBehaviour
 
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
-        // Check if the target is tracked or extended tracked
+        // Ensure the target model is only activated once and never hidden again
         if (status.Status == Status.TRACKED || status.Status == Status.EXTENDED_TRACKED)
         {
-            if (!isTracking)
+            if (!isTracking && targetModel != null)
             {
                 isTracking = true; // Set tracking flag
                 targetModel.SetActive(true); // Show the model
             }
-        }
-        else
-        {
-            // If the target is lost, stop tracking and hide the model
-            isTracking = false;
-            targetModel.SetActive(false);
         }
     }
 

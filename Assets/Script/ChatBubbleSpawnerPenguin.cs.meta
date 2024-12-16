@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 32c802de918f14bdc95a40689edf6dfa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - chatBubblePrefab: {fileID: 2273462554302865199, guid: 3e29fc7d7305e4fd992508cb2f6e137a, type: 3}
+  - bubbleSpawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

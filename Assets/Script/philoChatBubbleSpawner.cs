@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
+using TMPro; // For TextMeshPro
+using UnityEngine.UI; // For LayoutRebuilder
 
-public class philoChatBubbleSpawner : MonoBehaviour
+
+public class ChatBubbleSpawner : MonoBehaviour
 {
     public GameObject chatBubblePrefab; // Prefab for the chat bubble
     public Transform bubbleSpawnPoint; // Position where the bubble spawns (e.g., above the model)
@@ -12,16 +13,16 @@ public class philoChatBubbleSpawner : MonoBehaviour
     [TextArea]
     public string[] chatMessages = new string[10] // Array of chat messages
     {
-     "Why do you follow me?",
-"Is solitude a burden or a gift?",
-"Not all paths are meant to be followed.",
-"Freedom comes at a cost.",
-"Have you ever questioned the flock?",
-"To wander is to find yourself.",
-"Loneliness is the price of thought.",
-"Look beyond the obvious.",
-"The horizon is my only companion.",
-"Will you choose your own path?"
+        "Why do you follow me?",
+        "Is solitude a burden or a gift?",
+        "Not all paths are meant to be followed.",
+        "Freedom comes at a cost.",
+        "Have you ever questioned the flock?",
+        "To wander is to find yourself.",
+        "Loneliness is the price of thought.",
+        "Look beyond the obvious.",
+        "The horizon is my only companion.",
+        "Will you choose your own path?"
     };
 
     private void Start()
@@ -30,7 +31,7 @@ public class philoChatBubbleSpawner : MonoBehaviour
         StartCoroutine(SpawnChatBubble());
     }
 
-    private IEnumerator SpawnChatBubble()
+    private System.Collections.IEnumerator SpawnChatBubble()
     {
         while (true)
         {
@@ -53,18 +54,24 @@ public class philoChatBubbleSpawner : MonoBehaviour
         // Instantiate the chat bubble prefab
         GameObject bubble = Instantiate(chatBubblePrefab, bubbleSpawnPoint.position, Quaternion.identity);
 
-        // Set the text to a random message from the array
-        Text bubbleText = bubble.GetComponentInChildren<Text>();
+        // Find the TextMeshPro component inside the prefab
+        TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
         if (bubbleText != null)
         {
             bubbleText.text = chatMessages[Random.Range(0, chatMessages.Length)];
         }
 
+        // Adjust the background size to fit the text content
+        RectTransform textboxRect = bubbleText.transform.parent.GetComponent<RectTransform>();
+        if (textboxRect != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(textboxRect);
+        }
+
         // Make the bubble a child of this GameObject for better positioning
-        bubble.transform.SetParent(transform);
+        bubble.transform.SetParent(transform, false);
 
         // Destroy the bubble after the specified duration
         Destroy(bubble, bubbleDisplayDuration);
     }
 }
-
