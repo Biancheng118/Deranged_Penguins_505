@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/UBCO Courtyard Assets/Courtyard Setup.unity
+- path: Assets/Scenes/ARScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

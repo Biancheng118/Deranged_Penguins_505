@@ -27,12 +27,12 @@ m_LocalPackages:
       ticks: 0
     m_Hash: 0
   - m_FilePath: /Users/bianchongyuan/Desktop/Deranged_Penguins_505/Packages/com.ptc.vuforia.engine-10.27.3.tgz
-    m_PathExists: 1
+    m_PathExists: 0
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638634561240000000
-    m_Hash: 2570809894
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: /Users/bianchongyuan/Desktop/Deranged_Penguins_505/Packages
 m_EditorVersion: 2022.3.45f1 (a13dfa44d684)
 m_ResolvedPackages:
@@ -214,10 +214,12 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     compatible:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     recommended: 2.4.4
     deprecated: []
   dependencies: []
@@ -490,6 +492,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -507,6 +510,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
+    - 3.2.0-pre.11
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -843,17 +847,17 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
     compatible:
     - 1.9.4
-    recommended: 1.9.4
-    deprecated:
-    - 1.8.0-pre.1
+    - 1.9.5
+    recommended: 1.9.5
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
