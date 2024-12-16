@@ -71,7 +71,7 @@ This experience blends virtual penguins with real-world settings, creating a jux
   - Happy flock: Light, cheerful tones.  
   - Philosopher Penguin: Reflective and somber background music.  
 - **Dialogue System**: Chat bubbles that trigger dynamically based on user proximity and choices.  
-- **AR Activation**: QR code scan triggers penguin interactions in real-world environments.  
+- **AR Activation**: Image target scan triggers penguin interactions in real-world environments.  
 
 ---
 
